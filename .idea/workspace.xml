@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13b5c034-68e0-497b-a770-02d89fe2f46c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_repository" />
+        <option name="mavenHome" value="D:\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HZmjCv7TUoj7PNsil5v74PeFQv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-step-03/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-03\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-03\src\main\resources\mapper" />
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo" />
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-02\src\test\java\vip\chentianxiang" />
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-02\src\main\java\vip\chentianxiang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-03\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_MapperProxyFactory (2)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.chentianxiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vip.chentianxiang" />
+      <option name="MAIN_CLASS_NAME" value="vip.chentianxiang.ApiTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_MapperProxyFactory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.chentianxiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vip.chentianxiang" />
+      <option name="MAIN_CLASS_NAME" value="vip.chentianxiang.ApiTest" />
+      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_MapperProxyFactory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.chentianxiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vip.chentianxiang" />
+      <option name="MAIN_CLASS_NAME" value="vip.chentianxiang.ApiTest" />
+      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_MapperProxyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.chentianxiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vip.chentianxiang" />
+      <option name="MAIN_CLASS_NAME" value="vip.chentianxiang.ApiTest" />
+      <option name="METHOD_NAME" value="test_MapperProxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_proxy_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.chentianxiang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vip.chentianxiang" />
+      <option name="MAIN_CLASS_NAME" value="vip.chentianxiang.ApiTest" />
+      <option name="METHOD_NAME" value="test_proxy_class" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-step-02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vip.chentianxiang.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-step-03" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vip.chentianxiang.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-step-01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vip.chentianxiang.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (2)" />
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (1)" />
+        <item itemvalue="JUnit.ApiTest.test_proxy_class" />
+        <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory" />
+        <item itemvalue="JUnit.ApiTest.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13b5c034-68e0-497b-a770-02d89fe2f46c" name="Default Changelist" comment="" />
+      <created>1668501130350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668501130350</updated>
+      <workItem from="1668501136900" duration="90000" />
+      <workItem from="1668501273714" duration="29112000" />
+      <workItem from="1668846350993" duration="8940000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
