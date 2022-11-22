@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13b5c034-68e0-497b-a770-02d89fe2f46c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/mybatis-step-03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-03/mybatis-step-03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/src/resources/mapper/User_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-03/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/src/resources/mybatis-config-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-03/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/target/classes/mapper/User_Mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/target/classes/mybatis-config-datasource.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/target/classes/vip/chentianxiang/session/SqlSessionFactoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-03/target/classes/vip/chentianxiang/session/SqlSessionFactoryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-03/target/test-classes/vip/chentianxiang/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-03/target/test-classes/vip/chentianxiang/ApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/mybatis-step-04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/mybatis-step-04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/builder/BaseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/builder/BaseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/builder/xml/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/builder/xml/XMLConfigBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/datasource/DataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/datasource/DataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/datasource/druid/DruidDataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/datasource/druid/DruidDataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/mapping/BoundSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/mapping/BoundSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/mapping/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/mapping/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/mapping/MappedStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/mapping/MappedStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/session/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/session/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/session/TransactionlsolationLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/session/defaults/DefaultSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/session/defaults/DefaultSqlSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/TransactionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/TransactionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/jdbc/JdbcTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/jdbc/JdbcTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/jdbc/JdbcTransactionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/transaction/jdbc/JdbcTransactionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/type/TypeAliasRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/main/java/vip/chentianxiang/type/TypeAliasRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/resources/mapper/User_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/test/resources/mapper/User_Mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/resources/mybatis-config-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/src/test/resources/mybatis-config-datasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/test/java/vip/chentianxiang/ApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/test/java/vip/chentianxiang/dao/ISchoolDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/test/java/vip/chentianxiang/dao/IUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/src/test/java/vip/chentianxiang/po/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/builder/BaseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/builder/BaseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/builder/xml/XMLConfigBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/builder/xml/XMLConfigBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/mapping/MappedStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/mapping/MappedStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/session/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/session/Configuration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/session/SqlSessionFactoryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/session/SqlSessionFactoryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/session/defaults/DefaultSqlSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-step-04/target/classes/vip/chentianxiang/session/defaults/DefaultSqlSession.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-step-04/src/test/java/vip/chentianxiang/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-step-04-final" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,8 +76,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-04\src\test\java\vip\chentianxiang\test" />
       <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo" />
+      <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-04\src\test\java\vip\chentianxiang\test" />
       <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-03\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-03\src\main\resources\mapper" />
       <recent name="C:\Users\Administrator\Desktop\卷\手写mybatis\MybatisDemo\mybatis-step-02\src\test\java\vip\chentianxiang" />
@@ -130,7 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.APITest.test_SqlSessionFactory">
+  <component name="RunManager" selected="JUnit.ApiTest.test_SqlSessionFactory">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -206,17 +171,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_proxy_class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-step-01" />
+    <configuration name="ApiTest.test_SqlSessionFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-step-04-final" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vip.chentianxiang.*" />
+          <option name="PATTERN" value="cn.bugstack.mybatis.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vip.chentianxiang" />
-      <option name="MAIN_CLASS_NAME" value="vip.chentianxiang.ApiTest" />
-      <option name="METHOD_NAME" value="test_proxy_class" />
+      <option name="PACKAGE_NAME" value="cn.bugstack.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.bugstack.mybatis.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_SqlSessionFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_SqlSessionFactory" />
         <item itemvalue="JUnit.APITest.test_SqlSessionFactory" />
         <item itemvalue="JUnit.APITest.test_selectOne" />
         <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (2)" />
         <item itemvalue="JUnit.ApiTest.test_MapperProxyFactory (1)" />
-        <item itemvalue="JUnit.ApiTest.test_proxy_class" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +229,7 @@
       <workItem from="1668501136900" duration="90000" />
       <workItem from="1668501273714" duration="29112000" />
       <workItem from="1668846350993" duration="11419000" />
-      <workItem from="1668934249256" duration="27985000" />
+      <workItem from="1668934249256" duration="29279000" />
     </task>
     <servers />
   </component>
