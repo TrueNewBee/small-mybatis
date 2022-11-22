@@ -1,7 +1,12 @@
 package vip.chentianxiang.session;
 
 import vip.chentianxiang.binding.MapperRegistry;
+import vip.chentianxiang.datasource.druid.DruidDataSourceFactory;
+import vip.chentianxiang.mapping.Environment;
 import vip.chentianxiang.mapping.MappedStatement;
+import vip.chentianxiang.transaction.jdbc.JdbcTransactionFactory;
+import vip.chentianxiang.type.TypeAliasRegistry;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,15 +17,23 @@ import java.util.Map;
  * @DESCRIPTION:
  */
 public class Configuration {
-    /**
-     * 映射注册机
-     */
+
+    // 环境
+    protected Environment environment;
+
+    //映射注册机
     protected MapperRegistry mapperRegistry = new MapperRegistry(this);
 
-    /**
-     * 映射的语句,存在Map里
-     */
-    protected Map<String, MappedStatement> mappedStatements = new HashMap<>();
+    // 映射的语句,存在Map里
+    protected final Map<String, MappedStatement> mappedStatements = new HashMap<>();
+
+    // 类型别名注册机
+    protected final TypeAliasRegistry typeAliasRegistry = new TypeAliasRegistry();
+
+    public Configuration(){
+        typeAliasRegistry.registerAlias("JDBC", JdbcTransactionFactory.class);
+        typeAliasRegistry.registerAlias("DRUID", DruidDataSourceFactory.class);
+    }
 
     // 扫描包 添加mappers
     public  void addMappers(String packageName){
@@ -50,14 +63,13 @@ public class Configuration {
         return mappedStatements.get(id);
     }
 
+    // 获取别名
+    public TypeAliasRegistry getTypeAliasRegistry(){return typeAliasRegistry;}
 
+    // 获取环境
+    public Environment getEnvironment(){ return  environment;}
 
-
-
-
-
-
-
-
+    // 添加环境
+    public void setEnvironment(Environment environment){this.environment = environment;}
 
 }
