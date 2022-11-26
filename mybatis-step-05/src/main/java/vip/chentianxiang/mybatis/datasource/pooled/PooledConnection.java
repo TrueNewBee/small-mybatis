@@ -59,7 +59,6 @@ public class PooledConnection implements InvocationHandler {
             // 其他方法交给connection去调用
             return method.invoke(realConnection, args);
         }
-        return null;
     }
 
     private void checkConnection() throws SQLException{
@@ -67,4 +66,66 @@ public class PooledConnection implements InvocationHandler {
             throw new SQLException("Error accessing PooledConnection. Connection is invalid");
         }
     }
+
+    public void invalidate() {
+        valid = false;
+    }
+
+    public boolean isValid() {
+        return valid && realConnection != null && dataSource.pingConnection(this);
+    }
+
+    public Connection getRealConnection() {
+        return realConnection;
+    }
+
+    public Connection getProxyConnection() {
+        return proxyConnection;
+    }
+
+    public int getRealHashCode() {
+        return realConnection == null ? 0 : realConnection.hashCode();
+    }
+
+    public void setConnectionTypeCode(int connectionTypeCode) {
+        this.connectionTypeCode = connectionTypeCode;
+    }
+
+    public long getCreatedTimestamp() {
+        return createdTimestamp;
+    }
+
+    public void setCreatedTimestamp(long createdTimestamp) {
+        this.createdTimestamp = createdTimestamp;
+    }
+
+    public long getLastUsedTimestamp() {
+        return lastUsedTimestamp;
+    }
+
+    public void setLastUsedTimestamp(long lastUsedTimestamp) {
+        this.lastUsedTimestamp = lastUsedTimestamp;
+    }
+
+    public long getTimeElapsedSinceLastUse() {
+        return System.currentTimeMillis() - lastUsedTimestamp;
+    }
+
+    public long getAge() {
+        return System.currentTimeMillis() - createdTimestamp;
+    }
+
+    public long getCheckoutTimestamp() {
+        return checkoutTimestamp;
+    }
+
+    public void setCheckoutTimestamp(long timestamp) {
+        this.checkoutTimestamp = timestamp;
+    }
+
+    public long getCheckoutTime() {
+        return System.currentTimeMillis() - checkoutTimestamp;
+    }
+
+
 }
