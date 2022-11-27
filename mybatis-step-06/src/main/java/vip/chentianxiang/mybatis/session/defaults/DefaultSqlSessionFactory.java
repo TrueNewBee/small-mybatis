@@ -1,8 +1,16 @@
 package vip.chentianxiang.mybatis.session.defaults;
 
+import cn.hutool.db.transaction.TransactionLevel;
+import vip.chentianxiang.mybatis.executor.Executor;
+import vip.chentianxiang.mybatis.mapping.Environment;
 import vip.chentianxiang.mybatis.session.Configuration;
 import vip.chentianxiang.mybatis.session.SqlSession;
 import vip.chentianxiang.mybatis.session.SqlSessionFactory;
+import vip.chentianxiang.mybatis.session.TransactionIsolationLevel;
+import vip.chentianxiang.mybatis.transaction.Transaction;
+import vip.chentianxiang.mybatis.transaction.TransactionFactory;
+
+import java.sql.SQLException;
 
 /**
  * @author 小傅哥，微信：fustack
@@ -21,7 +29,22 @@ public class DefaultSqlSessionFactory implements SqlSessionFactory {
 
     @Override
     public SqlSession openSession() {
-        return new DefaultSqlSession(configuration);
+        Transaction tx = null;
+        try{
+            final Environment environment = configuration.getEnvironment();
+            TransactionFactory transactionFactory = environment.getTransactionFactory();
+            tx = transactionFactory.newTransaction(configuration.getEnvironment().getDataSource(), TransactionIsolationLevel.READ_COMMITTED,false);
+            // 创建执行器
+            final Executor executor = configuration.newExecutor(tx);
+            // 创建DefaultSqlSession
+            return new DefaultSqlSession(configuration,executor);
+        }catch (Exception e){
+            try{
+                assert tx!= null;
+                tx.close();
+            }catch (SQLException ignore){
+            }
+            throw new RuntimeException("Error opening session . Cause:"+e   );
+        }
     }
-
 }

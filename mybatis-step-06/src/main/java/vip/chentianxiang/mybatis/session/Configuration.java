@@ -4,8 +4,16 @@ import vip.chentianxiang.mybatis.binding.MapperRegistry;
 import vip.chentianxiang.mybatis.datasource.druid.DruidDataSourceFactory;
 import vip.chentianxiang.mybatis.datasource.pooled.PooledDataSourceFactory;
 import vip.chentianxiang.mybatis.datasource.unpooled.UnpooledDataSourceFactory;
+import vip.chentianxiang.mybatis.executor.Executor;
+import vip.chentianxiang.mybatis.executor.SimpleExecutor;
+import vip.chentianxiang.mybatis.executor.resultset.DefaultResultSetHandler;
+import vip.chentianxiang.mybatis.executor.resultset.ResultSetHandler;
+import vip.chentianxiang.mybatis.executor.statement.PreparedStatementHandler;
+import vip.chentianxiang.mybatis.executor.statement.StatementHandler;
+import vip.chentianxiang.mybatis.mapping.BoundSql;
 import vip.chentianxiang.mybatis.mapping.Environment;
 import vip.chentianxiang.mybatis.mapping.MappedStatement;
+import vip.chentianxiang.mybatis.transaction.Transaction;
 import vip.chentianxiang.mybatis.transaction.jdbc.JdbcTransactionFactory;
 import vip.chentianxiang.mybatis.type.TypeAliasRegistry;
 
@@ -74,5 +82,27 @@ public class Configuration {
 
     public void setEnvironment(Environment environment) {
         this.environment = environment;
+    }
+
+
+    /**
+     * 创建结果集处理器
+     */
+    public ResultSetHandler newResultSetHandler(Executor executor, MappedStatement mappedStatement, BoundSql boundSql) {
+        return new DefaultResultSetHandler(executor, mappedStatement, boundSql);
+    }
+
+    /**
+     * 生产执行器
+     */
+    public Executor newExecutor(Transaction transaction) {
+        return new SimpleExecutor(this, transaction);
+    }
+
+    /**
+     * 创建语句处理器
+     */
+    public StatementHandler newStatementHandler(Executor executor, MappedStatement mappedStatement, Object parameter, ResultHandler resultHandler, BoundSql boundSql) {
+        return new PreparedStatementHandler(executor, mappedStatement, parameter, resultHandler, boundSql);
     }
 }
